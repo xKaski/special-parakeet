@@ -2,6 +2,8 @@ package tuto_git;
 
 import java.awt.Frame;
 
+import javax.swing.JFrame;
+
 public class Application extends Frame {
 
 	public static void main(String[] args) {
@@ -20,6 +22,8 @@ public class Application extends Frame {
 		this.add(vue);
 		this.pack();
 		this.setVisible(true);
+		
 	}
 
+	
 }

@@ -11,7 +11,7 @@ public class Modle extends Observable {
 	}
 
 	public void incremente() {
-		this.compte += 1;
+		this.compte += 10;
 		this.setChanged();
 		this.notifyObservers(String.valueOf(this.compte));
 	}
